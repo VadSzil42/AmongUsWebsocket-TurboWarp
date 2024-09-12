@@ -63,5 +63,5 @@ clients = []
 client_players = {}
 rooms = {}
 
-server = WebSocketServer('0.0.0.0', 80, Turbowap)
+server = WebSocketServer('0.0.0.0', 443, Turbowap)
 server.serve_forever()
